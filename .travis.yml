@@ -1,4 +1,7 @@
 language: ruby
+cache:
+  directories:
+    - $HOME/.m2
 rvm:
   - 2.2.3
 before_install:
